@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HWScrollableSegmentedControl.h"
 
 FOUNDATION_EXPORT double HWScrollabeSegmentedControlVersionNumber;
 FOUNDATION_EXPORT const unsigned char HWScrollabeSegmentedControlVersionString[];

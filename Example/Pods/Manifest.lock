@@ -1,5 +1,5 @@
 PODS:
-  - HWScrollabeSegmentedControl (0.1.0)
+  - HWScrollabeSegmentedControl (0.0.1)
 
 DEPENDENCIES:
   - HWScrollabeSegmentedControl (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HWScrollabeSegmentedControl: 887cafffc7b69fc116f56a6b178fce66a7ae940b
+  HWScrollabeSegmentedControl: df017276c9b6eb285005f9bd2ba2410a7c6de479
 
 PODFILE CHECKSUM: 94ab97f2aff26eb96991d05122fe8e3513458a91
 
