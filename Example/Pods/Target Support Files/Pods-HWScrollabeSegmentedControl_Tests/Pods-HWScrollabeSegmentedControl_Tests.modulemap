@@ -1,0 +1,6 @@
+framework module Pods_HWScrollabeSegmentedControl_Tests {
+  umbrella header "Pods-HWScrollabeSegmentedControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

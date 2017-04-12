@@ -1,0 +1,6 @@
+framework module HWScrollabeSegmentedControl {
+  umbrella header "HWScrollabeSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

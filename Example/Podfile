@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HWScrollabeSegmentedControl_Example' do
+  pod 'HWScrollabeSegmentedControl', :path => '../'
+
+  target 'HWScrollabeSegmentedControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
