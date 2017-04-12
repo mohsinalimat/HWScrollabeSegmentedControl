@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/HWScrollabeSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/HWScrollabeSegmentedControl)
 [![Platform](https://img.shields.io/cocoapods/p/HWScrollabeSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/HWScrollabeSegmentedControl)
 
+`HWScrollableSegmentedControl` is used to display a variety of segments, and it is scrollable when the some of the segments is out of the screen. 
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Screenshots
+
+iOS >= 8.0
 
 ## Installation
 
@@ -20,6 +24,16 @@ it, simply add the following line to your Podfile:
 pod "HWScrollabeSegmentedControl"
 ```
 
+## ToDo
+* [ ] Reset Title for A Specific Segment
+* [ ] Insert Segments
+* [ ] Delete Segments
+* [ ] Images Supported
+* [ ] Enable/Disable A Specific Segemnt
+* [ ] Background Image Supported
+* [ ] Attributed Text Supported
+* [ ] Tint Color
+
 ## Author
 
 ihomway, ihomway@live.com
@@ -27,3 +41,5 @@ ihomway, ihomway@live.com
 ## License
 
 HWScrollabeSegmentedControl is available under the MIT license. See the LICENSE file for more info.
+
+

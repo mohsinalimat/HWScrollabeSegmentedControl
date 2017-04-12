@@ -15,7 +15,6 @@
 		808AFA36D56C4E8C72DD4C6B63420E3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A7F2FCF9C6798F39EED717B13608AF9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		CD4B2ED5822B09BBE13FA48CAF5A35F1 /* HWScrollabeSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D0175BE3D4B7A90835BB4DA0A8B64 /* HWScrollabeSegmentedControl-dummy.m */; };
-		CDC523461E9E4B1A004AC5E5 /* HWScrollableSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E37A798B4825939C343C36B785F01CAF /* HWScrollableSegmentedControl.m */; };
 		EC225435A7D83C6614E484E4799BEF2F /* HWScrollableSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E37A798B4825939C343C36B785F01CAF /* HWScrollableSegmentedControl.m */; };
 		F5C4B2856E0BB44B5C00140A57FA4518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		F7CF1DA470B40A7259EB9FEF855FEE78 /* Pods-HWScrollabeSegmentedControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB1EC56031EF2266C7F06B0DA3E123 /* Pods-HWScrollabeSegmentedControl_Tests-dummy.m */; };
@@ -40,27 +39,27 @@
 		4FEB1EC56031EF2266C7F06B0DA3E123 /* Pods-HWScrollabeSegmentedControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HWScrollabeSegmentedControl_Tests-dummy.m"; sourceTree = "<group>"; };
 		54B264552231BF9BCC8F9C0ACAE2C329 /* Pods-HWScrollabeSegmentedControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HWScrollabeSegmentedControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		57655B4BAC6723897ED646CB25F270A6 /* Pods-HWScrollabeSegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWScrollabeSegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5FCD32BEE3948FC021E4C5E19B362AA4 /* Pods_HWScrollabeSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWScrollabeSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCD32BEE3948FC021E4C5E19B362AA4 /* Pods_HWScrollabeSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HWScrollabeSegmentedControl_Tests.framework; path = "Pods-HWScrollabeSegmentedControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F79DC63A9D134A4D66944B4EDD27BB /* Pods-HWScrollabeSegmentedControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HWScrollabeSegmentedControl_Example-umbrella.h"; sourceTree = "<group>"; };
-		7C34C8DFCE7EEB40805646C048C0D9BB /* HWScrollabeSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HWScrollabeSegmentedControl.modulemap; sourceTree = "<group>"; };
+		7C34C8DFCE7EEB40805646C048C0D9BB /* HWScrollabeSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HWScrollabeSegmentedControl.modulemap; sourceTree = "<group>"; };
 		80CBD26EC968BE4B2C3EDDED49498EB1 /* Pods-HWScrollabeSegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HWScrollabeSegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		824D13B0BBAA50C3CB372A6FAEE6ABE8 /* HWScrollabeSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWScrollabeSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
 		87101AD8F6FFB613C83D00BB37B29174 /* Pods-HWScrollabeSegmentedControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HWScrollabeSegmentedControl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8A1EC42B0647AB146B1B3D6A95016F24 /* Pods-HWScrollabeSegmentedControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWScrollabeSegmentedControl_Tests-resources.sh"; sourceTree = "<group>"; };
 		918515B29899A1816B31907B5939A861 /* Pods-HWScrollabeSegmentedControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWScrollabeSegmentedControl_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98B7BB83C81E25C9882DAC77B00B184E /* Pods-HWScrollabeSegmentedControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWScrollabeSegmentedControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9E28D877BB38E7334EC3F125254E8681 /* Pods-HWScrollabeSegmentedControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HWScrollabeSegmentedControl_Example.modulemap"; sourceTree = "<group>"; };
+		9E28D877BB38E7334EC3F125254E8681 /* Pods-HWScrollabeSegmentedControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HWScrollabeSegmentedControl_Example.modulemap"; sourceTree = "<group>"; };
 		B2584A572DA56A9CBBA1A6521C2B312A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAD189A9AC0B5ECCF85C570DE512711 /* Pods-HWScrollabeSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWScrollabeSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C679B292996A3DC93131E74B14455D39 /* Pods_HWScrollabeSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWScrollabeSegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C679B292996A3DC93131E74B14455D39 /* Pods_HWScrollabeSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HWScrollabeSegmentedControl_Example.framework; path = "Pods-HWScrollabeSegmentedControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D2137120FB737D90C64950AFA520A984 /* HWScrollabeSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HWScrollabeSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2137120FB737D90C64950AFA520A984 /* HWScrollabeSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HWScrollabeSegmentedControl.framework; path = HWScrollabeSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4360EEC804ACAF618906F23EEC22E70 /* HWScrollabeSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWScrollabeSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
 		D85D0175BE3D4B7A90835BB4DA0A8B64 /* HWScrollabeSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HWScrollabeSegmentedControl-dummy.m"; sourceTree = "<group>"; };
 		E2E19BA559A69A974168964264F2FAE8 /* Pods-HWScrollabeSegmentedControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HWScrollabeSegmentedControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E37A798B4825939C343C36B785F01CAF /* HWScrollableSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HWScrollableSegmentedControl.m; sourceTree = "<group>"; };
-		EA3B85386737AC7C331C9218BFB1C91E /* Pods-HWScrollabeSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HWScrollabeSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
+		EA3B85386737AC7C331C9218BFB1C91E /* Pods-HWScrollabeSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HWScrollabeSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
 		F1CFADE4B7F5712D575D37E7CCB53614 /* HWScrollableSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HWScrollableSegmentedControl.h; sourceTree = "<group>"; };
 		F7387AD64A6DAF7A4B594EB1EB587DA0 /* Pods-HWScrollabeSegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWScrollabeSegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF65336F0B005386ED1AC0265018130 /* Pods-HWScrollabeSegmentedControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWScrollabeSegmentedControl_Example-resources.sh"; sourceTree = "<group>"; };
@@ -114,6 +113,7 @@
 			children = (
 				D68BA0049FEEF15E6F4BE893B8DCAE9A /* Classes */,
 			);
+			name = HWScrollabeSegmentedControl;
 			path = HWScrollabeSegmentedControl;
 			sourceTree = "<group>";
 		};
@@ -186,6 +186,7 @@
 				F1CFADE4B7F5712D575D37E7CCB53614 /* HWScrollableSegmentedControl.h */,
 				E37A798B4825939C343C36B785F01CAF /* HWScrollableSegmentedControl.m */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -342,7 +343,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC523461E9E4B1A004AC5E5 /* HWScrollableSegmentedControl.m in Sources */,
 				3787ACF4B28431E789C486248BDB9A2A /* Pods-HWScrollabeSegmentedControl_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

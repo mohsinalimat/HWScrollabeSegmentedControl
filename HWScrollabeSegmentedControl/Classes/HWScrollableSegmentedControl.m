@@ -108,6 +108,7 @@ static NSString *HWCollectionViewCellIdentifier = @"HWCollectionViewCell";
 
 - (void)setItems:(NSMutableArray *)items
 {
+	_items =items;
 	_numberOfSegments = items.count;
 }
 
@@ -178,7 +179,10 @@ static NSString *HWCollectionViewCellIdentifier = @"HWCollectionViewCell";
 	
 	if (self.target)
 	{
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
 		[self.target performSelector:self.selector withObject:self];
+#pragma clang diagnostic pop
 	}
 }
 
