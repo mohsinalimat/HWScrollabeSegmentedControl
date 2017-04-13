@@ -13,7 +13,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Screenshots
 
-iOS >= 8.0
+![screenshot1](./Screenshot/scrollableSegmentedControl1.png)
+![screenshot2](./Screenshot/scrollableSegmentedControl2.png)
+![gif1](./Screenshot/scrollableSegmentedControl.gif)
 
 ## Installation
 
