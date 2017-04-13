@@ -22,11 +22,11 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/ihomway/HWScrollabeSegmentedControl'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'http://blogimage.ihomway.cc/Simulator%20Screen%20Shot%2012%20Apr%202017,%2010.54.11%20PM.png', 'http://blogimage.ihomway.cc/Simulator%20Screen%20Shot%2012%20Apr%202017,%2010.54.25%20PM.png', 'http://blogimage.ihomway.cc/scrollableSegmentedControl.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ihomway' => 'ihomway@live.com' }
   s.source           = { :git => 'https://github.com/ihomway/HWScrollabeSegmentedControl.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/ihomway'
 
   s.ios.deployment_target = '8.0'
 
